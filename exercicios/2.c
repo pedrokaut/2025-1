@@ -9,7 +9,7 @@ int potencia(int base, int expoente){
 }
 int main(){
     setlocale(LC_ALL, "portuguese");
-    int base, expoente;
+    int base, expoente,resultado;
     printf("digite a base: ");
     scanf("%d", &base);
     printf("digite o expoente: ");
