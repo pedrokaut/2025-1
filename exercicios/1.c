@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdbool.h>
+#include <locale.h>
 
 bool ehPrimo(int n) {
     for (int i = 2; i * i <= n; i++) {
@@ -11,6 +12,7 @@ bool ehPrimo(int n) {
 }
 
 int main() {
+    setlocale(LC_ALL, "Portuguese");
     int n1, n2;
     printf("Digite dois números: ");
     scanf("%d %d", &n1, &n2);
