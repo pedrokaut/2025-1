@@ -19,6 +19,11 @@ int main() {
     int n1, n2;
     printf("Digite dois números: ");
     scanf("%d %d", &n1, &n2);
+    if(n1 > n2){
+        int temp =n1;
+        n1 = n2;
+        n2 = temp;
+    }
     
     
     
