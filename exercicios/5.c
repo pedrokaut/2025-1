@@ -8,7 +8,16 @@ int main(){
     {
         printf("digite 0 %d: ",i+1);
         scanf("%d",&v1[i]);
-        
+
     }
+    printf("preecha o segunda vetor:\n");
+    for ( i = 0; i < 10; i++)
+    {
+        printf("digite o %d: ",i+1);
+        scanf("%d",&v2[i]);
+
+    }
+    printf("elementos em comum:\n");
+    
     
 }
