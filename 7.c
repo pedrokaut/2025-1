@@ -18,9 +18,15 @@ int main(){
             scanf("%f", &alunos[i].media);
 
         };
-        
+        printf("alunos cadastrados: \n");
+        for(int i=0; i<x; i++){
+            printf("nome: %s\n", alunos[i].nome);
+            printf("matricula: %d\n", alunos[i].matricula);
+            printf("media: %.2f\n", alunos[i].media);
+
+        };
     
     
-    
+    return 0;
 
 }
