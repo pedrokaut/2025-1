@@ -4,6 +4,7 @@ struct aluno{
     int matricula;
     float media;
 };
+
 int main(){
     int x;
     printf("digite a quantidade de alunos: ");
@@ -25,7 +26,6 @@ int main(){
             printf("media: %.2f\n", alunos[i].media);
 
         };
-    
     
     return 0;
 
