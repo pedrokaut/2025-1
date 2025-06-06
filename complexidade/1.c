@@ -1,3 +1,21 @@
+/* O algoritmo mede o tempo médio de execução da função recursiva x(n) para um valor fixo n?,
+ repetindo sua execução até atingir um número máximo de repetições (NMax). Isso fornece uma avaliação empírica do desempenho,
+  mas não determina a complexidade teórica, que depende da própria definição recursiva da função x(n). */
+/*
+Algorithm 1: Calculo da função ao recursiva x(n)
+input: Algoritmo para x(n) avaliado para n = n?
+Output: Tempo medio do algoritmo x(n) para n = n?, N_Max
+N = 0;
+T = 0;
+if N ? N_Max then
+return T / N_Max
+end
+else
+N = N + 1;
+T = T + tempo_execucao(x(n?));
+Execute Algoritmo para calcular x(n?);
+end
+*/
 #include <stdio.h>
 #include <time.h>
 #include<locale.h>
