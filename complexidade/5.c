@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <time.h>
 #include <locale.h>
-
+//os codigos 5,6,7 são as versões do algoritimo melhorado, e que foram utilizados para fazer o grafico
 #define MAX 1000
 long long me[MAX];
 //algoritmo modificado para calcular valores maiores que os proibitivos

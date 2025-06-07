@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <time.h>
 #include<locale.h>
-
+//essa e a quetão 4
 //a)na minha maquina a partir do 40 esse algoritmo se torna proibitivo
 //b)o algoritmo esta com uma complexidade esperada em 41 da aproximadamente 1.6 segundos em 44 12.8 segundos e em 46 51 segundos tornando a complexidade desse algortimo o(2), esses resultados foram tirados da minha maquina
 int x(int n) {

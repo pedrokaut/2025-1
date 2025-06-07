@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include<locale.h>
-
+//a depuração desse cordigo esta no codigo depuração2.c
 float f(float n)
 {
     if (n == 1)
