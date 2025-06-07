@@ -34,16 +34,19 @@ int main() {
     imprimirInOrdem(raiz);
     
     
-    char nomeBusca[50];
+    char nomealuno[50];
     printf("\nDigite o nome do aluno para buscar: ");
-    scanf(" %[^\n]", nomeBusca);
+   fgets(nomealuno, sizeof(nomealuno), stdin);
+   nomealuno[strcspn(nomealuno, "\n")] = '\0';  
+
+
     
-    Aluno* encontrado = buscarPorNome(raiz, nomeBusca);
+    Aluno* encontrado = buscarPorNome(raiz, nomealuno);
     if (encontrado != NULL) {
         printf("Aluno encontrado: %s, Matrícula: %d, Nota: %.2f\n",
             encontrado->nome, encontrado->matricula, encontrado->nota);
     } else {
-        printf("Aluno com nome '%s' não encontrado.\n", nomeBusca);
+        printf("Aluno com nome '%s' não encontrado.\n", nomealuno);
     }
     
     
