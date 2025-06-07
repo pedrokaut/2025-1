@@ -140,14 +140,18 @@ void liberarArvore(No* raiz) {
 
 int main() {
     No* raiz = NULL;
+// a arvore esta inserindo em ordem crescente, então na hora de inserir os valors
+// a ordem pode mudar o numero de nos e folhas e altura 
+    raiz = inserirecriar(raiz, 45);
+    raiz = inserirecriar(raiz, 25);
+    raiz = inserirecriar(raiz, 65);
+    raiz = inserirecriar(raiz, 10);
+    raiz = inserirecriar(raiz, 35);
+    raiz = inserirecriar(raiz, 55);
+    raiz = inserirecriar(raiz, 75);
+    raiz = inserirecriar(raiz, 85);
 
-    raiz = inserirecriar(raiz, 50);
-    raiz = inserirecriar(raiz, 30);
-    raiz = inserirecriar(raiz, 70);
-    raiz = inserirecriar(raiz, 20);
-    raiz = inserirecriar(raiz, 40);
-    raiz = inserirecriar(raiz, 60);
-    raiz = inserirecriar(raiz, 80);
+
 
     printf("PreOrdem: "); preOrdem(raiz); printf("\n");
     printf("inOrdem: "); inOrdem(raiz); printf("\n");
